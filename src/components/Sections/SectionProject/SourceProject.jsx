@@ -1,4 +1,4 @@
-import Button from "./ButtonSection";
+import ButtonSection from "./ButtonSection";
 import { projectData } from "./projectData";
 
 function SourceProject() {
@@ -29,7 +29,7 @@ function SourceProject() {
             <p className="block antialiased font-sans text-base leading-relaxed text-inherit mb-6 font-normal !text-gray-500">
               {desc}
             </p>
-            <Button />
+            <ButtonSection />
           </div>
         </div>
       ))}
